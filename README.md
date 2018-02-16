@@ -16,9 +16,9 @@ In my program, I mainly utilized the `VLFeat` to get the superpixel segmentation
 ## (C)Result
 ### "Duck" 
 the picture is listed as following order: 
->original + final_result -> original_superpixel_segmentation + changed_superpixel_segmentation -> md + ms
+>`original` + `final_result` -> `original_superpixel_segmentation` + `changed_superpixel_segmentation` -> `md` + `ms`
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_result.png" width="50%" height="50%">
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ori_sup.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="50%" height="50%">
-<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ms.png" width="50%" height="50%">
->>We can
+<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_md.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ms.png" width="50%" height="50%">
+>>We can see from the `result` and `original_superpixel_segmentation` that there still exists some segementation mistakes (The head of duck should be a complete part, but in `original_superpixel_segmentation` the color was divided into different parts) 
 
