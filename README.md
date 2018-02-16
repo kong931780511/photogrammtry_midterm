@@ -1,1 +1,2 @@
-# photogrammtry_midterm (kong.325)
+# Estimating Dichromatic Reflection Model From Images (kong.325)
+
