@@ -14,8 +14,11 @@ In my program, I mainly utilized the `VLFeat` to get the superpixel segmentation
 >* Then a function named `GS_iter` was called. Its main idea is to conducted `Gauss-Seidel iterations` on the segmentation results to get relatively accurate value of `md` `cd` `ms` `cs` (which 'd' means 'diffuse' and 's' means 'specular'). During this process two function were also called: `cal_m` & `cal_c` which were used to calculate the color value and its coefficient.
 >* Finally, in order to get the final result of true color picture, I used each channel of `cd` multiply with `md`
 ## (C)Result
-### (a)Duck
+### "Duck" 
+the picture is listed as following order: 
+original + final_result -> original_superpixel_segmentation + changed_superpixel_segmentation -> md + ms
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_result.png" width="50%" height="50%">
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ori_sup.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="50%" height="50%">
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ms.png" width="50%" height="50%">
+>>We can
 
