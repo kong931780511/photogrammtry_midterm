@@ -15,5 +15,7 @@ In my program, I mainly utilized the `VLFeat` to get the superpixel segmentation
 >* Finally, in order to get the final result of true color picture, I used each channel of `cd` multiply with `md`
 ## (C)Result
 ### (a)Duck
-<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6.png" width="20%" height="20%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ori_sup.png" width="20%" height="20%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="20%" height="20%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ms.png" width="20%" height="20%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_result.png" width="20%" height="20%">
+<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_result.png" width="50%" height="50%">
+<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ori_sup.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="50%" height="50%">
+<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ms.png" width="50%" height="50%">
 
