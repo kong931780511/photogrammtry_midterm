@@ -26,7 +26,7 @@ So I changed the iteration times from 3 to 10, then I got a relatively worse res
 Compared with `result` shown above, we can see the eye's color even become as same as its head.
 ### "RPAC basketball playground"
 Although there exists some shortcomings in my outcome, I also get some good results:
-<src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/basketball_floor/test5.jpg" width="50%" height="50%"><src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/basketball_floor/5_result.png" width="50%" height="50%">
+<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/basketball_floor/test5.jpg" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/basketball_floor/5_result.png" width="50%" height="50%">
 As the result shows, the color of floor after optimization is better compared with original pictures.
 
                                   
