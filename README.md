@@ -1,10 +1,16 @@
 # Estimating Dichromatic Reflection Model From Images 
 ## (A)Brief Description of Algorithm
-In my program, I mainly utilized the `VLFeat` to get the superpixel segmentation pictures of my data. After I got segementation pictures, I utilized `GPhotometricauss-Seidel iterations` to get a relatively accurate result of color estimation.
+As shown below, the reflection of light can be considered to be a combination of diffuse and specular reflections:
+![](https://github.com/kong931780511/photogrammtry_midterm/blob/master/pic.jpg)
+In Dichromatic Reflection Model, incident light reflected from an object is written as a linear combination of diffuse and specular reflections:
+![](https://github.com/kong931780511/photogrammtry_midterm/blob/master/model_form.png)
+There are many ways to compute them, I choose `Gauss-Seidel iterations` to get an estimation of the reflection.
+In my program, I mainly utilized the `VLFeat` to get the superpixel segmentation pictures of my data. After I got segementation pictures, I utilized `Gauss-Seidel iterations` to get a relatively accurate result of color estimation.
 >>>>>>The formulu which I used was shown as following:
 ![](https://github.com/kong931780511/photogrammtry_midterm/blob/master/form.jpg)
 ## (B)About Program
 >* My program mainly has two part: `superpixel segementation` & `Gauss-Seidel iterations`
->* In my `main` function, I first included the path of `VLFeat` which I utilized to get superpixel
+>* In my `main` function, I first included the path of `VLFeat` which I utilized to get superpixel and do segmentation
+>* Then a function named `GS_iter` was called. Its main idea is to conducted `Gauss-Seidel iterations` on the segmentation results to get relatively accurate value of `md` `cd` `ms` `cs` (which 'd' means 'diffuse' and 's' means 'specular')
 
 
