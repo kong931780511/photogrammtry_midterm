@@ -23,4 +23,11 @@ the picture is listed as following order:
 >>We can see from the `result` and `original_superpixel_segmentation` that there still exists some segementation mistakes (The head of duck should be a complete part, but in `original_superpixel_segmentation` the color was divided into different parts). Besides, the eye's color is also wrong in the `result`.
 So I changed the iteration times from 3 to 10, then I got a relatively worse result:
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/test_duck_c.jpg" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/test_duck.jpg" width="50%" height="50%">
+Compared with `result` shown above, we can see the eye's color even become as same as its head.
+### "RPAC basketball playground"
+Although there exists some shortcomings in my outcome, I also get some good results:
+<src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/basketball_floor/test5.jpg" width="50%" height="50%"><src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/basketball_floor/5_result.png" width="50%" height="50%">
+As the result shows, the color of floor after optimization is better compared with original pictures.
+
+                                  
 
