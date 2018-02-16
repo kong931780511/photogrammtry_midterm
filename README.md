@@ -20,5 +20,7 @@ the picture is listed as following order:
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_result.png" width="50%" height="50%">
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ori_sup.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_change_sup.png" width="50%" height="50%">
 <img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_md.png" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/6_ms.png" width="50%" height="50%">
->>We can see from the `result` and `original_superpixel_segmentation` that there still exists some segementation mistakes (The head of duck should be a complete part, but in `original_superpixel_segmentation` the color was divided into different parts) 
+>>We can see from the `result` and `original_superpixel_segmentation` that there still exists some segementation mistakes (The head of duck should be a complete part, but in `original_superpixel_segmentation` the color was divided into different parts). Besides, the eye's color is also wrong in the `result`.
+So I changed the iteration times from 3 to 10, then I got a relatively worse result:
+<img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/test_duck_c.jpg" width="50%" height="50%"><img src="https://github.com/kong931780511/photogrammtry_midterm/blob/master/data/duck/test_duck.jpg" width="50%" height="50%">
 
